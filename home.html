@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard</title>
+  <link rel="stylesheet" href="home.css">
+  <script type="text/javascript" src="app.js" defer></script>
+</head>
+
+
+<body>
+
+ <!--NAVIGATION ON THE SIDE-->
+  <nav id="sidebar">
+    <ul>
+      <li>
+        <span class="logo">MonaMisto</span>
+        <button onclick=toggleSidebar() id="toggle-btn">
+        <img src="arrow.png" class="arrow">
+        </button>
+
+
+      </li>
+      <li>
+        <a href="home.html">
+          <img src="home2.png" class="home">
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="active">
+        <a href="dashboard.html">
+          <img src="head.png" class="psych">
+          <span>Psychology</span>
+        </a>
+      </li>
+
+
+      <li>
+        <button onclick=toggleSubMenu(this) class="dropdown-btn">
+          <img src="project.png" class="project">
+          <span>Projects</span>
+        </button>
+        <ul class="sub-menu">
+          <div>
+            <li><a href="#">Wordpress</a></li>
+            <li><a href="#">Code</a></li>
+          </div>
+        </ul>
+      </li>
+
+
+      <li>
+        <button onclick=toggleSubMenu(this) class="dropdown-btn">
+          <img src="education.png" class="edu">
+          <span>Education</span>
+        </button>
+        <ul class="sub-menu">
+          <div>
+            <li><a href="#">University</a></li>
+            <li><a href="#">Extra curriculars</a></li>
+            <li><a href="#">Internships</a></li>
+          </div>
+        </ul>
+      </li>
+      
+
+      <li>
+        <a href="profile.html">
+          <img src="contact.png" class="contact2">
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--END OF NAVIGATION-->
+
+
+
+  <!--MIDDLE CONTENT-->
+  <main>
+
+
+
+
+  </main>
+  
+</body>
+</html>
