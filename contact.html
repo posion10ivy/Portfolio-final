@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Conatct</title>
+        <link rel="stylesheet" href="psych.css" />
+        <script type="text/javascript" src="app.js" defer></script>
+    </head>
+
+    <body>
+        <!--MIDDLE CONTENT-->
+        <main>
+            <div class="container">
+                <!-- What I Do Section -->
+                <section class="what-i-do">
+                    <h1>What do I do</h1>
+                    <div class="content">
+                        <p>
+                            In my psychology major, I delve into understanding
+                            the complexities of human behavior, emotions, and
+                            thought processes. I study various theories and
+                            frameworks that explain why people think, feel, and
+                            act the way they do. My focus often includes
+                            dashboardological topics like mental health,
+                            cognitive development, personality, and social
+                            dynamics.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Services Section -->
+                <section class="services">
+                    <div class="service">
+                        <img src="image 14.png" alt="Therapy Image" />
+                        <button>THERAPY</button>
+                        <p>
+                            Therapy focuses on thoughts, behaviors, and feelings
+                            to address issues like anxiety, depression, and
+                            stress. Each session is tailored to meet your
+                            specific needs.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <img src="image 15.png" alt="Consultation Image" />
+                        <button>CONSULTATION</button>
+                        <p>
+                            Offering one-on-one consultation can be a great way
+                            to explore personal challenges and develop
+                            strategies for overcoming obstacles and enhancing
+                            self-awareness.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div
+                id="image-track"
+                data-mouse-down-at="0"
+                data-prev-percentage="0"
+            >
+                <img src="1.jpg" class="image" draggable="false" />
+                <img src="2.jpg" class="image" draggable="false" />
+                <img src="3.jpg" class="image" draggable="false" />
+                <img src="4.jpg" class="image" draggable="false" />
+                <img src="5.jpg" class="image" draggable="false" />
+            </div>
+        </main>
+        <!--NAVIGATION ON THE SIDE-->
+        <nav id="sidebar">
+            <ul>
+                <li>
+                    <span class="logo">MonaMisto</span>
+                    <button onclick="toggleSidebar()" id="toggle-btn">
+                        <img src="arrow.png" class="arrow" />
+                    </button>
+                </li>
+                <li>
+                    <a href="home.html">
+                        <img src="home2.png" class="home" />
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li class="active">
+                    <a href="web.html">
+                        <img src="web.png" class="web" />
+                        <span>WebDev</span>
+                    </a>
+                </li>
+
+                <li class="active">
+                    <a href="psych.html">
+                        <img src="head.png" class="psych" />
+                        <span>Psychology</span>
+                    </a>
+                </li>
+
+                <li>
+                    <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                        <img src="project.png" class="project" />
+                        <span>Projects</span>
+                        <img src="drop.png" class="dropdown-btn" />
+                    </button>
+                    <ul class="sub-menu">
+                        <div>
+                            <li><a href="#">Wordpress</a></li>
+                            <li><a href="#">Code</a></li>
+                        </div>
+                    </ul>
+                </li>
+
+                <li>
+                    <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                        <img src="education.png" class="edu" />
+                        <span>Education</span>
+                        <img src="drop.png" class="dropdown-btn" />
+                    </button>
+                    <ul class="sub-menu">
+                        <div>
+                            <li><a href="#">University</a></li>
+                            <li><a href="#">Extra curriculars</a></li>
+                            <li><a href="#">Internships</a></li>
+                        </div>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        <img src="contact.png" class="contact2" />
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--END OF NAVIGATION-->
+    </body>
+</html>
