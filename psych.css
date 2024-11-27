@@ -66,15 +66,19 @@
  
   
   .dropdown-btn {
-    width: 20px;
-    height: 20px;
-    margin-left: 0px;
-    padding-top: 5px;
+    width: 180px;
     background: none;
     border: none;
     font: inherit;
     cursor: pointer;
     color: #754848;
+  }
+
+  .dropdown-img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    padding-top: 5px;
   }
 
   
