@@ -63,7 +63,10 @@
     gap: 1em;
   }
   
- 
+ #sidebar a
+ {
+  color: #754848;
+ }
   
   .dropdown-btn {
     width: 180px;
