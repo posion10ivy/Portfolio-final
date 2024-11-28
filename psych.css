@@ -201,7 +201,7 @@
 }
   
 
-/*arrow*/
+/*icons :>*/
 
 .contact2 {
   width: 28px; /* Adjust width */
@@ -359,6 +359,7 @@
   width: 100%;
   margin-right: 10px;
   margin-left: 90px;
+  padding-bottom: 100px;
   transform: translate(-100%, -50%);
   will-change: transform; /* Optimize performance for animations */
   transition: transform 0.2s ease-out; /* Smooth transitions */
